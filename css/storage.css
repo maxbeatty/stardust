@@ -1,0 +1,77 @@
+#map {
+	width: 100%;
+	padding:0;
+}
+
+#map iframe {
+	max-height: 400px;
+}
+
+/* Price Table Styles */
+
+#feature-table {
+	position: relative;
+	z-index: -10;
+	width:285px;
+	margin: -30px 0.5em 0;
+	padding: 0;
+	border-collapse:separate;
+	border: #bea990 1px solid;
+	border-top:none;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	background-color: #d5e4bc; /* sets outdoors bg color */
+	}
+
+#feature-table td, #feature-table th {
+	text-align: center;
+	text-shadow: 0 1px 0 #fff;
+	color: #2a2a2a;
+	border-bottom:#bea990 1px solid;
+	border-top:#fff 1px solid;
+}
+
+#feature-table tr:last-child td {border:none; border-top:#fff 1px solid;}
+
+#feature-table th {
+	line-height: 1.8em;
+	font-size: 1.2em;
+	letter-spacing: 0.1em;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #fef3e4;
+	padding-top: 20px;
+}
+
+#feature-table td {
+	padding: 0.8em 1em;
+	font-family: Georgia,"Lucida Grande", Helvetica, Arial, sans-serif;
+	
+}
+
+.small { background-color: #fdecd4;}
+.medium {background-color: #fce5c4;}
+.large {background-color: #fbdeb4;}
+.xlarge {background-color: #fbd6a3;}
+.xxlarge{background-color:#facf93;}
+
+/* Contact Information */
+
+#contact {
+	width:230px;
+	margin: 1.5em 1em;
+	padding: 1em 1.5em;
+	line-height: 1.2em;
+}
+
+#contact dt {
+	color: #626262;
+	border-bottom: 1px solid #aeaeae;
+	font-style: italic;
+}
+
+#contact dd {
+	padding: 0.5em 0 1em 0;
+	margin-left: 28px;
+}
+
+#contact dd:last-child { padding-bottom: 0;}
